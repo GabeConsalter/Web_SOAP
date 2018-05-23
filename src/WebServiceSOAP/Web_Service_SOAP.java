@@ -20,7 +20,7 @@ public class Web_Service_SOAP {
     public static void main(String[] args) {
         // TODO code application logic here
         //alterar com o IP do PC apos os dois pontos é a porta onde vai criar
-        Endpoint.publish("http://192.168.2.165:9876/WebSeviceSOAP",new Implements_SOAP());
+        Endpoint.publish("http://localhost:9876/WebSeviceSOAP",new Implements_SOAP());
         
     }
     

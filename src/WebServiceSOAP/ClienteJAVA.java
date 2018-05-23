@@ -24,7 +24,7 @@ public class ClienteJAVA {
     public static void main(String[] args) throws MalformedURLException {
        URL url = null;
                     
-            url = new URL("http://192.168.2.165:9876/WebSeviceSOAP?wsdl");
+            url = new URL("http://localhost:9876/WebSeviceSOAP?wsdl");
         
         QName qname = new QName("http://WebServiceSOAP/","Implements_SOAPService");
         Service ws = Service.create(url, qname);
